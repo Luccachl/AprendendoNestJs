@@ -1,0 +1,12 @@
+
+GET http://localhost:3000/users/
+
+###
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "name": "cleito",
+    "age": 40,
+    "cpf": "453.456.789-00"
+}
